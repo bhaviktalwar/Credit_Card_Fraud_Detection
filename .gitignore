@@ -1,5 +1,4 @@
 *.csv
-*.pkl
 *.joblib
 .env
 __pycache__/
