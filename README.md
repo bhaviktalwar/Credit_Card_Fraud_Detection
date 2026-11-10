@@ -4,8 +4,6 @@
 
 ### An end-to-end machine learning pipeline for detecting fraudulent transactions in highly imbalanced data
 
-**Best F1-Score: 0.8289 (XGBoost) &nbsp;|&nbsp; Best Precision: 0.9643 (Random Forest) &nbsp;|&nbsp; Best PR-AUC: 0.8204 (Random Forest)**
-
 </div>
 
 ---
