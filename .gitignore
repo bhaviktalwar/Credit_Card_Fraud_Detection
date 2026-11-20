@@ -3,3 +3,24 @@
 .env
 __pycache__/
 .ipynb_checkpoints/
+
+# Environment and database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node dependencies and build
+node_modules/
+dist/
+build/
+.npm/
+.eslintcache
+
+# Python environment and test caches
+.pytest_cache/
+.coverage
+htmlcov/
+*.pyc
+venv/
+.venv/
+env/
