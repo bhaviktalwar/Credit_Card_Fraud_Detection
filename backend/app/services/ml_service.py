@@ -27,10 +27,11 @@ class MLService:
     def _load_artifacts(self):
         # Resolve path to Models directory
         possible_dirs = [
-            settings.MODEL_DIR,
+            os.path.join(os.getcwd(), "Models"),
             os.path.join(os.getcwd(), "Credit_Card_Fraud_Detection", "Models"),
-            os.path.join(os.path.dirname(os.getcwd()), "Credit_Card_Fraud_Detection", "Models"),
+            os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "Models")),
             os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "Credit_Card_Fraud_Detection", "Models")),
+            settings.MODEL_DIR,
             "E:/Credit-Card Fraud Detection/Credit_Card_Fraud_Detection/Models"
         ]
 
